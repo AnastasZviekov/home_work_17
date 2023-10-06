@@ -1,0 +1,37 @@
+.render_table caption {
+    font-size: 22px;
+    color:rebeccapurple;
+    font-weight: bold;
+}
+
+.render_table th {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.render_table{
+    border-collapse:collapse;
+    font-size: 22px;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    table-layout: fixed;
+    height: 200px;
+    margin: auto;
+    border:  2px solid gray;
+}
+
+
+ tr, th, td {
+    border:  2px solid gray;
+    border-collapse: collapse;
+}
+
+ .todo_meeting{
+     background-color: lightgray;
+     cursor: pointer;
+ }
+
+.todo_meeting h3{
+   font-size: 12px;
+}
